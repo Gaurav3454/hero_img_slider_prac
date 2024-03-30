@@ -78,13 +78,12 @@ body {
 
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: 460px;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
-
-.auto-btn {
+.navigation-auto div{
     border: 2px solid #40D3DC;
     padding: 5px;
     border-radius: 10px;
@@ -94,15 +93,15 @@ body {
 }
 
 
-#radio1:checked ~ .first{
-    margin-left: 0;
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
 }
-#radio2:checked ~ .first{
-    margin-left: -20%;
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
 }
-#radio3:checked ~ .first{
-    margin-left: -40%;
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
 }
-#radio4:checked ~ .first{
-    margin-left: -60%;
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
 }

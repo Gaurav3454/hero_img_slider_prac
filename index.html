@@ -42,5 +42,14 @@
         <label for="radio4" class="manual-btn"></label>
       </div>
     </div>
+
+    <script>
+      let counter = 1;
+      setInterval(() => {
+        document.getElementById(`radio${counter}`).checked = true;
+        counter++;
+        if (counter > 4) counter = 1;
+      }, 3000);
+    </script>
   </body>
 </html>
